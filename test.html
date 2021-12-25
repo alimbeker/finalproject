@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="gradient">
+        <div class="container cont-test">
+            <h2 class="title-in sign">Sign in</h2>
+            <div>
+                <div class="age">
+                    <p class="txt">Age</p>
+                    <input type="number" id="tentacles" name="tentacles" min="10" max="100" value="17">
+                </div>
+                <div class="age date-test">
+                    <p class="txt date-txt">Date of birth</p>
+                    <input type="date" id="start" name="trip-start" value="2003-01-01" min="1970-01-01"
+                        max="2021-12-06" >
+                </div>
+                <div>
+                    <p class="txt">Choose Citizenship</p>
+                    <select name="country" class="select">
+                        <option value="">Country...</option>
+                        <option value="AF">USA</option>
+                        <option value="AL">Russia</option>
+                        <option value="AF">Kazakhstan</option>
+                        <option value="AL">China</option>
+                    </select>
+                </div>
+                <div>
+                    <p class="txt">Gender</p>
+                    <input type="radio" id="contactChoice1" name="contact" value="email">
+                    <label for="contactChoice1">Male</label>
+
+                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                    <label for="contactChoice2">Female</label>
+                </div>
+                <div>
+                    <p class="txt">Upload your image</p>
+                    <input name="myFile" type="file" class="file">
+                </div>
+            </div>
+            <form action="#" class="form form-test">
+                <input class="email-in" type="email" type="tel" placeholder="Mobile phone or email" required>
+                <input class="email-in" type="email" type="tel" placeholder="Name and surname" required>
+                <input class="email-in" type="password" placeholder="Password" required>
+            </form>
+            <a href="#" role="button" class="button social-button2 reg">Register</a>
+        </div>
+    </div>
+</body>
+
+</html>

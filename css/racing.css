@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+
+#racing{
+    color: hsl(0, 0%, 100%, 1);
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(0, 0, 0, 1);
+}
+#bin{
+    background-color: rgb(0, 0, 0);
+    padding-left: 50px;
+}
+#bin button{
+    margin: 20px 0;
+    border-radius: 10%;
+}
+#bin hr{
+    width: 1000px;
+    border: 1px solid rgb(255, 255, 255);
+}
+#bin #he{
+    width: 70px;
+}
+#bin h4{
+    font-size: 24px;
+    padding: 10px 0px;
+}
+#img img{
+    width: 660px;
+}
+
+.container{
+    margin: 20px 0;
+    flex-direction: column;
+    text-align: start;
+}
+.container a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.container p{
+    font-size: 36px;
+    padding: 10px 0;
+}
+
+@media  screen and (max-width: 769px) {
+    
+}

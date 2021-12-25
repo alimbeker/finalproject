@@ -1,0 +1,163 @@
+body{
+    background-color: black;
+}
+.header{
+    background-color: white;
+    border: 1px solid black;
+    margin: 10% 16%;
+    display: flex;
+
+}
+.sss{
+    margin: 6% 13% 0 6%;
+    width: 30%;
+}
+#all{
+    margin: 6% 0 2% 0;
+}
+#tema h2{
+    font-size: 3.2vw;
+}
+.object{
+    margin: 1.1% 0;
+}
+.word{
+    margin: 30px 0px 0px 0px;
+}
+.word h2{
+    font-size: 2.6vw;
+}
+.word p{
+    font-size: 1.3vw;
+}
+.photo img{
+    width: 40%;
+}
+.tema1{
+    font-size: 3.2vw;
+    text-align: center;
+    margin: 15px 0;
+}
+.photo1{
+    text-align: center;
+
+}
+.photo1 img{
+    width: 80%;
+}
+.col{
+    border: 1px solid black;
+    padding: 0.3%;
+    font-size: 1.5vw;
+}
+#black{
+    background-color: grey;
+}
+.heade{
+    background-color: white;
+    margin: 10% 16%;
+}
+#tt{
+    margin: 0.6% 3.2% 1.6% 3.2%;
+}
+.text{
+    margin: 5% 0;
+}
+.text p{
+    font-size: 1.5vw;
+}
+.table{
+    width: 90%;
+    margin: 5% 0;
+}
+.table th, td{
+    font-size: 1.3vw;
+}
+
+.footer{
+    background-color: black;
+    color: #fff;
+}
+.footer-wrapper{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    border-bottom: 1px solid #333333;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 35px;
+}
+.link-list{
+    list-style-type: none;
+}
+.each-link{
+    text-decoration: none;
+    color: #686864;
+}
+.each-link:hover{
+    text-decoration: none;
+}
+svg{
+    opacity: 35%;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+svg:hover{
+    opacity: 90%;
+}
+.logos{
+    border-bottom: 1px solid #333333;
+    margin-top: 1rem;
+    padding-bottom: 30px;
+}
+.img-responsive{
+    height: 55px;
+    opacity: 40%;
+    align-items: center;
+    float: center;
+}
+.daimler{
+    opacity:80%;
+    height: 40px;
+}
+.smart{
+    opacity: 50%;
+}
+.brands{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.img-responsive:hover{
+    opacity: 90%;
+}
+.daimler:hover{
+    opacity: 100%;
+}
+
+
+@media screen and (max-width:1200px){
+    .footer-wrapper{
+        width: 700px;
+    }
+    .view-img{
+        width: 601px;
+    }
+}
+@media screen and (max-width:992px) { 
+    .footer-wrapper{
+        width: 500px;
+    }  
+    .view-img{
+        width: 545px;
+    }
+}
